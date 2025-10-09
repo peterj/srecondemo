@@ -5,7 +5,9 @@ This repo contains the setup and files for the demo. The talk description and sl
 
 ## Demo setup
 
-The demo creates a kind (local) cluster; however, you could deploy this on any other Kubernetes cluster as well. To create a cluster and deploy everything, run: 
+The demo creates a kind (local) cluster; however, you could deploy this on any other Kubernetes cluster as well. You'll also need a Github token and store it in an environment variable before running the setup script.
+
+To create a cluster and deploy everything, run: 
 
 ```sh
 ./setup.sh
